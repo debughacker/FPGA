@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xd:data xmlns:xd="http://www.xilinx.com/xd">
+  <xd:source name="conv2.c" compiler="gcc" objfile="src/conv2.o" srcpath="D:/Coding/FPGA/workplace/cnn_simple/src" flags="-ID:/Coding/FPGA/workplace/cnn_simple/src -ID:/Coding/FPGA/workplace/cnn_simple/src -Wall -O0 -g -fmessage-length=0 -MMD -MP -D __SDSCC__"/>
+</xd:data>

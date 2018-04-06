@@ -1,0 +1,21 @@
+(c) Copyright 2012-2016 Xilinx, Inc. All Rights Reserved.
+#-----------------------------------------------------------
+# Tool version  : sdscc 2016.4 SW Build 1804799 on Mar  8 2017 18:30:58
+# Start time    : Fri Apr 06 12:13:07 +0800 2018
+# Command line  : sdscc -Wall -O0 -g -I../src -c -fmessage-length=0 -MTsrc/conv2.o -MMD -MP -MFsrc/conv2.d -MTsrc/conv2.o -o src/conv2.o ../src/conv2.c -sds-sys-config config0 -sds-proc a9_0 -sds-pf D:/Coding/FPGA/np9/snowleo2
+# Log file      : D:/Coding/FPGA/workplace/cnn_simple/Debug/_sds/reports/sds_conv2.log
+# Journal file  : D:/Coding/FPGA/workplace/cnn_simple/Debug/_sds/reports/sds_conv2.jou
+# Report file   : D:/Coding/FPGA/workplace/cnn_simple/Debug/_sds/reports/sds_conv2.rpt
+#-----------------------------------------------------------
+
+INFO: [SDSoC 0-0] Create data motion intermediate representation
+clang_wrapper -I../src -Wall -g -fmessage-length=0 -MMD -MP -D __SDSCC__ -target arm-none-eabi -mcpu=cortex-a9 -mfpu=vfpv3 -O0 -g     -I F:/Xilinx/SDx/2016.4/aarch32-none/include  -I F:/Xilinx/SDx/2016.4/Vivado_HLS/include   -IF:/Xilinx/SDx/2016.4/SDK/gnu/aarch32/nt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/5.2.1/include -IF:/Xilinx/SDx/2016.4/SDK/gnu/aarch32/nt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/5.2.1/include-fixed -IF:/Xilinx/SDx/2016.4/SDK/gnu/aarch32/nt/gcc-arm-none-eabi/arm-none-eabi/include -IF:/Xilinx/SDx/2016.4/SDK/gnu/aarch32/nt/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include -emit-llvm -S D:/Coding/FPGA/workplace/cnn_simple/src/conv2.c -o D:/Coding/FPGA/workplace/cnn_simple/Debug/_sds/.llvm/src/conv2.s
+
+D:\Coding\FPGA\workplace\cnn_simple\Debug>F:\Xilinx\SDx\2016.4\llvm-clang\win64\llvm\bin\clang.exe -I../src -Wall -g -fmessage-length=0 -MMD -MP -D __SDSCC__ -target arm-none-eabi -mcpu=cortex-a9 -mfpu=vfpv3 -O0 -g -I F:/Xilinx/SDx/2016.4/aarch32-none/include -I F:/Xilinx/SDx/2016.4/Vivado_HLS/include -IF:/Xilinx/SDx/2016.4/SDK/gnu/aarch32/nt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/5.2.1/include -IF:/Xilinx/SDx/2016.4/SDK/gnu/aarch32/nt/gcc-arm-none-eabi/lib/gcc/arm-none-eabi/5.2.1/include-fixed -IF:/Xilinx/SDx/2016.4/SDK/gnu/aarch32/nt/gcc-arm-none-eabi/arm-none-eabi/include -IF:/Xilinx/SDx/2016.4/SDK/gnu/aarch32/nt/gcc-arm-none-eabi/arm-none-eabi/libc/usr/include -emit-llvm -S D:/Coding/FPGA/workplace/cnn_simple/src/conv2.c -o D:/Coding/FPGA/workplace/cnn_simple/Debug/_sds/.llvm/src/conv2.s 
+
+D:\Coding\FPGA\workplace\cnn_simple\Debug>exit /b 0 
+INFO: [SDSoC 0-0] Compiling D:/Coding/FPGA/workplace/cnn_simple/src/conv2.c
+arm-none-eabi-gcc -c -I../src -Wall -O0 -g -fmessage-length=0 -MMD -MP -D __SDSCC__ -MTD:/Coding/FPGA/workplace/cnn_simple/Debug/src/conv2.o -MFD:/Coding/FPGA/workplace/cnn_simple/Debug/src/conv2.d -MTD:/Coding/FPGA/workplace/cnn_simple/Debug/src/conv2.o -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard    -I F:/Xilinx/SDx/2016.4/aarch32-none/include  -I F:/Xilinx/SDx/2016.4/Vivado_HLS/include D:/Coding/FPGA/workplace/cnn_simple/src/conv2.c -o src/conv2.o
+arm-none-eabi-objcopy --add-section .xdsdata=D:/Coding/FPGA/workplace/cnn_simple/Debug/_sds/swstubs/conv2.o.xml src/conv2.o
+sdscc log file saved as D:/Coding/FPGA/workplace/cnn_simple/Debug/_sds/reports/sds_conv2.log
+sdscc completed at Fri Apr 06 12:13:18 +0800 2018

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdsproject:SDSProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdsproject="http://www.xilinx.com/sdsproject" name="cnn_simple" location="D:/Coding/FPGA/workplace/cnn_simple" platform="snowleo2" sysConfig="config0" runtime="C/C++" cpu="a9_0" os="standalone" ConfigType="Debug">
+  <configuration name="Debug" id="com.xilinx.sdsoc.managedbuild.project.debug.206581599">
+    <configBuildOptions xsi:type="sdsproject:Option" insertapm="false" genbitstream="true" gensdcard="true" dmclkid="0" enableHwSwTrace="false" traceApplication="false" genEmulationModel="false"/>
+    <lastBuildOptions xsi:type="sdsproject:Option" insertapm="false" genbitstream="true" gensdcard="true" dmclkid="0" enableHwSwTrace="false" traceApplication="false" genEmulationModel="false"/>
+  </configuration>
+  <configuration name="Release" id="com.xilinx.sdsoc.managedbuild.project.release.447663856">
+    <configBuildOptions xsi:type="sdsproject:Option" insertapm="false" genbitstream="true" gensdcard="true" dmclkid="3" enableHwSwTrace="false" traceApplication="false"/>
+  </configuration>
+</sdsproject:SDSProject>
